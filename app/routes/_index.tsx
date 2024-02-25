@@ -5,8 +5,6 @@ import { useState, useMemo } from "react";
 import { Button } from "~/components/ui/button";
 import { Textarea } from "~/components/ui/textarea";
 
-import catImg from "../edf96c28f0b54ed8ae092ed7c4bd3a15.png";
-
 fal.config({
   proxyUrl: "/fal/proxy",
 });
@@ -31,6 +29,8 @@ export default function Index() {
     if (!result) {
       return null;
     }
+
+    // @ts-expect-error Laziness
     return result.images[0];
   }, [result]);
 

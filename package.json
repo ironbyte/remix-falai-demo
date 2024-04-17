@@ -11,7 +11,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@excalidraw/excalidraw": "^0.17.3",
+    "@excalidraw/excalidraw": "^0.17.6",
     "@fal-ai/serverless-client": "^0.8.5",
     "@fal-ai/serverless-proxy": "^0.7.4",
     "@hookform/resolvers": "^3.3.4",

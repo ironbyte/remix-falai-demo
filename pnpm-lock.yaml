@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@excalidraw/excalidraw':
-    specifier: ^0.17.3
-    version: 0.17.3(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^0.17.6
+    version: 0.17.6(react-dom@18.2.0)(react@18.2.0)
   '@fal-ai/serverless-client':
     specifier: ^0.8.5
     version: 0.8.5
@@ -935,8 +935,8 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
-  /@excalidraw/excalidraw@0.17.3(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-t+0sR30AboKcINt0WUJmSAC1cJy6npO37j/zONvuWvSh6XDOGoL1E0L+WYKJMBzp4wnOQhRIghQJmdfktQlO8w==}
+  /@excalidraw/excalidraw@0.17.6(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-fyCl+zG/Z5yhHDh5Fq2ZGmphcrALmuOdtITm8gN4d8w4ntnaopTXcTfnAAaU3VleDC6LhTkoLOTG6P5kgREiIg==}
     peerDependencies:
       react: ^17.0.2 || ^18.2.0
       react-dom: ^17.0.2 || ^18.2.0
